@@ -1,0 +1,227 @@
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title></title>
+<div>
+<p><!DOCTYPE html><br />
+<html lang="en"><br />
+<head><br />
+  <meta charset="UTF-8" /><br />
+  <title>For Yusra, With All My Love</title><br />
+  <style><br />
+    * {<br />
+      margin: 0;<br />
+      padding: 0;<br />
+      box-sizing: border-box;<br />
+      font-family: "Poppins", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;<br />
+    }</p>
+
+<p>    body {<br />
+      min-height: 100vh;<br />
+      background: radial-gradient(circle at top, #ffe6f2 0, #fff 50%, #ffd6e8 100%);<br />
+      color: #3d1b2f;<br />
+      display: flex;<br />
+      align-items: center;<br />
+      justify-content: center;<br />
+      padding: 20px;<br />
+    }</p>
+
+<p>    .card {<br />
+      max-width: 700px;<br />
+      width: 100%;<br />
+      background: rgba(255, 255, 255, 0.9);<br />
+      border-radius: 24px;<br />
+      box-shadow: 0 20px 45px rgba(0, 0, 0, 0.08);<br />
+      padding: 32px 26px 30px;<br />
+      position: relative;<br />
+      overflow: hidden;<br />
+    }</p>
+
+<p>    .card::before,<br />
+    .card::after {<br />
+      content: "";<br />
+      position: absolute;<br />
+      border-radius: 50%;<br />
+      background: rgba(255, 192, 203, 0.35);<br />
+      z-index: -1;<br />
+    }</p>
+
+<p>    .card::before {<br />
+      width: 260px;<br />
+      height: 260px;<br />
+      top: -80px;<br />
+      right: -60px;<br />
+    }</p>
+
+<p>    .card::after {<br />
+      width: 220px;<br />
+      height: 220px;<br />
+      bottom: -90px;<br />
+      left: -70px;<br />
+    }</p>
+
+<p>    .tag {<br />
+      display: inline-block;<br />
+      padding: 6px 14px;<br />
+      border-radius: 999px;<br />
+      background: #ffe6f2;<br />
+      color: #b3225f;<br />
+      font-size: 12px;<br />
+      letter-spacing: 0.08em;<br />
+      text-transform: uppercase;<br />
+      margin-bottom: 10px;<br />
+    }</p>
+
+<p>    h1 {<br />
+      font-size: 30px;<br />
+      line-height: 1.2;<br />
+      color: #b3225f;<br />
+      margin-bottom: 8px;<br />
+    }</p>
+
+<p>    .subtitle {<br />
+      font-size: 14px;<br />
+      color: #7a3455;<br />
+      margin-bottom: 18px;<br />
+    }</p>
+
+<p>    .heart-line {<br />
+      font-size: 18px;<br />
+      color: #ff4e88;<br />
+      margin-bottom: 16px;<br />
+    }</p>
+
+<p>    .poem {<br />
+      font-size: 15px;<br />
+      line-height: 1.7;<br />
+      color: #4b2438;<br />
+      white-space: pre-line;<br />
+      margin-bottom: 20px;<br />
+    }</p>
+
+<p>    .highlight {<br />
+      display: inline-block;<br />
+      background: #fff4f9;<br />
+      padding: 4px 10px;<br />
+      border-radius: 999px;<br />
+      margin-top: 6px;<br />
+      font-size: 13px;<br />
+      color: #bf1b5b;<br />
+    }</p>
+
+<p>    .footer-note {<br />
+      margin-top: 18px;<br />
+      font-size: 13px;<br />
+      color: #8a4561;<br />
+    }</p>
+
+<p>    .footer-note span {<br />
+      color: #ff4e88;<br />
+    }</p>
+
+<p>    .floating-hearts {<br />
+      position: absolute;<br />
+      inset: 0;<br />
+      pointer-events: none;<br />
+      overflow: hidden;<br />
+    }</p>
+
+<p>    .heart {<br />
+      position: absolute;<br />
+      color: #ff7fa8;<br />
+      opacity: 0.55;<br />
+      animation: floatUp 8s linear infinite;<br />
+      font-size: 18px;<br />
+    }</p>
+
+<p>    .heart:nth-child(1) { left: 10%; bottom: -30px; animation-duration: 9s; font-size: 18px; }<br />
+    .heart:nth-child(2) { left: 25%; bottom: -40px; animation-duration: 7s; font-size: 22px; }<br />
+    .heart:nth-child(3) { left: 45%; bottom: -35px; animation-duration: 8.5s; font-size: 16px; }<br />
+    .heart:nth-child(4) { left: 65%; bottom: -45px; animation-duration: 10s; font-size: 24px; }<br />
+    .heart:nth-child(5) { left: 82%; bottom: -50px; animation-duration: 7.8s; font-size: 19px; }</p>
+
+<p>    @keyframes floatUp {<br />
+      0% {<br />
+        transform: translateY(0) scale(1);<br />
+        opacity: 0.0;<br />
+      }<br />
+      15% {<br />
+        opacity: 0.7;<br />
+      }<br />
+      85% {<br />
+        opacity: 0.7;<br />
+      }<br />
+      100% {<br />
+        transform: translateY(-260px) scale(1.15);<br />
+        opacity: 0;<br />
+      }<br />
+    }</p>
+
+<p>    @media (min-width: 640px) {<br />
+      .card {<br />
+        padding: 40px 40px 32px;<br />
+      }</p>
+
+<p>      h1 {<br />
+        font-size: 34px;<br />
+      }</p>
+
+<p>      .poem {<br />
+        font-size: 16px;<br />
+      }<br />
+    }<br />
+  </style><br />
+</head><br />
+<body><br />
+  <div class="card"><br />
+    <div class="floating-hearts" aria-hidden="true"><br />
+      <div class="heart">♥</div><br />
+      <div class="heart">♥</div><br />
+      <div class="heart">♥</div><br />
+      <div class="heart">♥</div><br />
+      <div class="heart">♥</div><br />
+    </div></p>
+
+<p>    <div class="tag">For my Yusra</div><br />
+    <h1>Yusra, my forever poem</h1><br />
+    <div class="subtitle"><br />
+      Every heartbeat whispers the same thing again and again:  <br />
+      <strong>I love you so, so much.</strong><br />
+    </div></p>
+
+<p>    <div class="heart-line"><br />
+      💗 I love you more than words, more than days, more than distance.<br />
+    </div></p>
+
+<p>    <div class="poem"><br />
+      Yusra, in the quiet corners of my soul,<br />
+      your name blooms like a soft rose in spring.</p>
+
+<p>      Your smile is my sunrise,<br />
+      your laugh is my favourite song.</p>
+
+<p>      When the world feels heavy,<br />
+      one thought of you makes everything light.</p>
+
+<p>      Every star in the sky feels like a tiny letter,<br />
+      all spelling the same thing:<br />
+      "I love you. I love you. I love you."</p>
+
+<p>      I love you in the pauses between my breaths,<br />
+      in the empty spaces of my days,<br />
+      in all the tomorrows I have not lived yet.</p>
+
+<p>      My heart has learned just one language now,<br />
+      and every word inside it is simply:<br />
+      "Yusra, I love you so, so, so much."<br />
+    </div></p>
+
+<p>    <div class="highlight"><br />
+      You are my today, my tomorrow, and my favourite “always”, Yusra.<br />
+    </div></p>
+
+<p>    <div class="footer-note"><br />
+      Made with endless love for <span>Yusra</span>.<br />
+    </div><br />
+  </div><br />
+</body><br />
+</html></p>
+</div>
